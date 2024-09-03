@@ -1,4 +1,6 @@
 import json
+import os
+import sys
 
 def clocktower_json_fixer(new_char_file, replacements, filename):
     # getting the names of the characters that need to be replaced
@@ -28,5 +30,6 @@ def clocktower_json_fixer(new_char_file, replacements, filename):
     new_filename = f".\\out\\{part}_fixed.json"
     with open(new_filename, 'w', encoding='utf-8') as fh:
         fh.write(script)
+    print("Writing to",new_filename)
 
-clocktower_json_fixer('.\\roles.txt','.\\roles.json','.\\input\\alsaahir.json')
+clocktower_json_fixer('.\\roles.txt','.\\roles.json',sys.argv[1])
