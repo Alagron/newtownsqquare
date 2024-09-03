@@ -1,5 +1,5 @@
 Alsaahir
-New Balloonist
+Balloonist
 Banshee
 High Priestess
 Knight
@@ -14,6 +14,7 @@ Harpy
 Organ Grinder
 Summoner
 Vizier
+Lord of Typhon
 Kazali
 Ojo
 Yaggababble
