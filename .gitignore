@@ -1,3 +1,4 @@
-input/*
+input/*.json
 .git
-out/*
+out/*.json
+.DS_STORE
