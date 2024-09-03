@@ -2,7 +2,7 @@
 Annoyed that townsquare isn't updating their role list so I'm making this.
 If you see the following role on this list, its not avaliable in townsquare:
 - Alsaahir
-- New Balloonist
+- Balloonist
 - Banshee
 - High Priestess
 - Knight
@@ -17,6 +17,7 @@ If you see the following role on this list, its not avaliable in townsquare:
 - Organ Grinder
 - Summoner
 - Vizier
+- Lord of Typhon
 - Kazali
 - Ojo
 - Yaggababble
