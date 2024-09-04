@@ -15,21 +15,6 @@
 		"ability": "Once per day, if you publicly guess which players are Minion(s) and which are Demon(s), good wins."
 	},
 	{
-		"id":"banshee",
-		"name": "Banshee",
-		"edition":"custom",
-		"image":"https://wiki.bloodontheclocktower.com/images/6/63/Icon_banshee.png",
-		"firstNight": 0,
-		"firstNightReminder": "",
-		"otherNight": 42.5,
-		"otherNightReminder": "If the Banshee is killed by the Demon, place the HAS ABILITY reminder token next to the Banshee and say THE BANSHEE HAS AWOKEN",
-		"reminders": ["Has Ability"],
-		"remindersGlobal": [],
-		"setup": false,
-		"team": "townsfolk",
-		"ability": "If the Demon kills you, all players learn this. From now on, you may nominate twice per day and vote twice per nomination."
-	},
-	{
 		"id":"newballoonist",
 		"name": "Balloonist",
 		"edition":"custom",
@@ -44,6 +29,21 @@
 		"team": "townsfolk",
 		"ability": "Each night, you learn a player of a different character type than last night. [+0 or +1 Outsider]" 
 	},
+    {
+        "id":"banshee",
+        "name": "Banshee",
+        "edition":"custom",
+        "image":"https://wiki.bloodontheclocktower.com/images/6/63/Icon_banshee.png",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 42.5,
+        "otherNightReminder": "If the Banshee is killed by the Demon, place the HAS ABILITY reminder token next to the Banshee and say THE BANSHEE HAS AWOKEN",
+        "reminders": ["Has Ability"],
+        "remindersGlobal": [],
+        "setup": false,
+        "team": "townsfolk",
+        "ability": "If the Demon kills you, all players learn this. From now on, you may nominate twice per day and vote twice per nomination."
+    },
 	{
 		"id": "high_priestess",
     		"name": "High Priestess",
