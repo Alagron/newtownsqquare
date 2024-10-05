@@ -10,6 +10,7 @@ Hatter
 Ogre
 Plague Doctor
 Zealot
+Boffin
 Harpy
 Organ Grinder
 Summoner

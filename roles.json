@@ -164,7 +164,7 @@
 		"team": "outsider",
 		"ability": "If you die, the storyteller gains a not-in-play Minion ability."
     	},
-	{
+		{
 		"id":"zealot",
 		"name": "Zealot",
 		"edition":"custom",
@@ -179,6 +179,21 @@
 		"team": "outsider",
 		"ability": "If there are 5 or more players alive, you must vote for every nomination."
     	},
+		{
+			"id":"boffin",
+			"name": "Boffin",
+			"edition":"custom",
+			"image":"https://wiki.bloodontheclocktower.com/images/e/e0/Icon_boffin.png",
+			"firstNight": 2.6,
+			"firstNightReminder": "Show the Boffin and the Demon a not-in-play good character's ability",
+			"otherNight": 0,
+			"otherNightReminder": "",
+			"reminders": [],
+			"remindersGlobal": [],
+			"setup": false,
+			"team": "minion",
+			"ability": "The Demon (even if drunk or poisoned) has a not-in-play good character's ability. You both know which."
+		},
     	{
     		"id":"harpy",
 		"name": "Harpy",
