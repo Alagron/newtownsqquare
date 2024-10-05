@@ -185,7 +185,7 @@
 			"edition":"custom",
 			"image":"https://wiki.bloodontheclocktower.com/images/e/e0/Icon_boffin.png",
 			"firstNight": 2.6,
-			"firstNightReminder": "Show the Boffin and the Demon a not-in-play good character's ability",
+			"firstNightReminder": "Show the Boffin and the Demon a not-in-play good character's token",
 			"otherNight": 0,
 			"otherNightReminder": "",
 			"reminders": [],
