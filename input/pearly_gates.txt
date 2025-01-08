@@ -1,0 +1,1 @@
+[{"id":"_meta","author":"Hannah","name":"Pearly Gates 2.0"},"librarian","shugenja","empath","balloonist","mathematician","fortuneteller","monk","savant","slayer","fisherman","seamstress","soldier","farmer","puzzlemaster","recluse","mutant","damsel","klutz","spy","witch","cerenovus","scarletwoman","nodashii","imp","vortox","sentinel"]

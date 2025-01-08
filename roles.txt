@@ -15,6 +15,7 @@ Harpy
 Organ Grinder
 Summoner
 Vizier
+Wizard
 Lord of Typhon
 Kazali
 Ojo

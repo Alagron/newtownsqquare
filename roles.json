@@ -143,7 +143,7 @@
 		"firstNightReminder": "The Ogre chooses a player and, without exception, becomes their alignment.",
 		"otherNight": 0,
 		"otherNightReminder": "",
-		"reminders": ["friend"],
+		"reminders": ["Friend"],
 		"remindersGlobal": [],
 		"setup": false,
 		"team": "outsider",
@@ -179,21 +179,15 @@
 		"team": "outsider",
 		"ability": "If there are 5 or more players alive, you must vote for every nomination."
     	},
-		{
-			"id":"boffin",
-			"name": "Boffin",
-			"edition":"custom",
-			"image":"https://wiki.bloodontheclocktower.com/images/e/e0/Icon_boffin.png",
-			"firstNight": 2.6,
-			"firstNightReminder": "Show the Boffin and the Demon a not-in-play good character's token",
-			"otherNight": 0,
-			"otherNightReminder": "",
-			"reminders": [],
-			"remindersGlobal": [],
-			"setup": false,
-			"team": "minion",
-			"ability": "The Demon (even if drunk or poisoned) has a not-in-play good character's ability. You both know which."
-		},
+        {
+                "id": "boffin",
+                "image": "https://wiki.bloodontheclocktower.com/images/e/e0/Icon_boffin.png",
+                "firstNight": 0.3,
+                "firstNightReminder": "Wake the Boffin and how them the token of the ability the Demon has. Put the Boffin back to sleep. Wake the Demon, show the Boffin token, then show the token of the good ability the Demon has.",
+                "name": "Boffin",
+                "team": "minion",
+                "ability": "The Demon (even if drunk or poisoned) has a not-in-play good character’s ability. You both know which."
+        },
     	{
     		"id":"harpy",
 		"name": "Harpy",
@@ -208,7 +202,7 @@
 		"setup": false,
 		"team": "minion",
 		"ability": "Each night, choose 2 players: tomorrow, the 1st player is mad that the 2nd is evil, or one or both might die." 
-    	},
+    	},"https://wiki.bloodontheclocktower.com/images/6/61/Icon_organgrinder.png"
     	{
     		"id":"organgrinder",
 		"name": "Organ Grinder",
@@ -224,21 +218,19 @@
 		"team": "minion",
 		"ability": "All players keep their eyes closed when voting & the vote tally is secret. Votes for you only count if you vote."
     	},
-    	{
-		"id":"summoner",
-		"name": "Summoner",
-		"edition":"custom",
-		"image":"https://wiki.bloodontheclocktower.com/images/1/1a/Icon_summoner.png",
-		"firstNight": 9,
-		"firstNightReminder": "Wake the summoner up so that they can receive their three bluffs.",
-		"otherNight": 19.5,
-		"otherNightReminder": "If the summoner has the Night Three token, wake them up so that they can pick a player to become a Demon of their choice.",
-		"reminders": ["Night One", "Night Two", "Night Three"],
-		"remindersGlobal": [],
-		"setup": true,
-		"team": "minion",
-		"ability": "You get 3 bluffs. On the 3rd night, choose a player: they become an evil Demon of your choice. [No Demon]"
-	},
+        {
+                "id": "summoner",
+                "image": "https://wiki.bloodontheclocktower.com/images/1/1a/Icon_summoner.png",
+                "firstNight": 8.1,
+                "firstNightReminder": "Show the 'These characters are not in play' card. Show 3 character tokens of good characters not in play.",
+                "otherNight": 19.1,
+                "otherNightReminder": "If it is the 3rd night, wake the Summoner. They point to a player and a Demon on the character sheet - that player becomes that Demon.",
+                "reminders": ["Night 1", "Night 2", "Night 3"],
+                "setup": true,
+                "name": "Summoner",
+                "team": "minion",
+                "ability": "You get 3 bluffs. On the 3rd night, choose a player: they become an evil Demon of your choice. [No Demon]"
+        },
 	{
 		"id":"vizier",
 		"name": "Vizier",
@@ -254,21 +246,30 @@
 		"team": "minion",
 		"ability": "All players know who you are. You can not die during the day. If good voted, you may choose to execute immediately."
 	},
-	{
-		"id":"lordoftyphon",
-		"name": "Lord of Typhon",
-		"edition":"custom",
-        	"image":"https://wiki.bloodontheclocktower.com/images/c/cf/Icon_lordoftyphon.png",
-        	"firstNight": 1.5,
-		"firstNightReminder": "No Minions are initially set up. Then, once the Lord of Typhon token has been given, a number of players directly clockwise and counterclockwise of the Lord of Typhon must be woken up and shown a unique Minion and the fact that they are evil.",
-        	"otherNight": 31.5,
-        	"otherNightReminder": "The Lord of Typhon chooses which player dies tonight.",
-        	"reminders": ["Dead"],
-        	"remindersGlobal": [],
-        	"setup": true,
-        	"team": "demon",
-        	"ability": "Each night*, choose a player: they die. [Evil characters are in a line. You are in the middle. +1 Minion. -? to +? Outsiders]" 
-	},
+{
+        "id": "wizard",
+        "image": "https://wiki.bloodontheclocktower.com/images/b/b5/Icon_wizard.png",
+        "reminders": ["?"],
+        "name": "Wizard",
+        "team": "minion",
+    "firstNight": 19.1,
+    "firstNightReminder": "Run the Wizard ability if applicable.",
+    "otherNight": 9.1,
+    "otherNightReminder": "Run the Wizard ability if applicable.",
+        "ability": "Once per game, choose to make a wish.  If granted, it might have a price & leave a clue as to its nature."
+},
+    {
+            "id": "lordoftyphon",
+            "image": "https://wiki.bloodontheclocktower.com/images/c/cf/Icon_lordoftyphon.png",
+            "firstNight": 0.1,
+            "firstNightReminder": "Wake the players on either side of the Demon. Show them the 'You Are' card, the token of the Minion they now are, and a thumbs down to indicate they are evil.",
+            "otherNight": 31.1,
+            "otherNightReminder": "The Lord of Typhon points to a player. That player dies.",
+            "reminders": ["Dead"],
+            "name": "Lord of Typhon",
+            "team": "demon",
+            "ability": "Each night*, choose a player: they die. [Evil characters are in a line. You are in the middle. +1 Minion. -? To +? Outsiders]"
+    },
 	{
 		"id":"kazali",
 		"name": "Kazali",
