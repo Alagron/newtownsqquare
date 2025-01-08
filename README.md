@@ -19,6 +19,7 @@ If you see the following role on this list, its not avaliable in townsquare:
 - Summoner
 - Vizier
 - Wizard
+- Xaan
 - Lord of Typhon
 - Kazali
 - Ojo
