@@ -16,6 +16,7 @@ Organ Grinder
 Summoner
 Vizier
 Wizard
+Xaan
 Lord of Typhon
 Kazali
 Ojo

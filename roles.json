@@ -258,6 +258,18 @@
     "otherNightReminder": "Run the Wizard ability if applicable.",
         "ability": "Once per game, choose to make a wish.  If granted, it might have a price & leave a clue as to its nature."
 },
+{
+        "id": "xaan",
+        "image": "https://wiki.bloodontheclocktower.com/images/0/0c/Icon_xaan.png",
+        "reminders": ["Night 1", "Night 2", "Night 3", "X"],
+        "name": "Xaan",
+        "team": "minion",
+    "firstNight": 16.1,
+"firstNightReminder": "Poison all Townsfolk on Night X",
+    "otherNight": 6.1,
+    "otherNightReminder": "Poison all Townsfolk on Night X",
+        "ability": "On night X, all Townsfolk are poisoned until dusk. [X Outsiders]"
+}.
     {
             "id": "lordoftyphon",
             "image": "https://wiki.bloodontheclocktower.com/images/c/cf/Icon_lordoftyphon.png",
