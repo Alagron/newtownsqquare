@@ -246,6 +246,18 @@
 		"team": "minion",
 		"ability": "All players know who you are. You can not die during the day. If good voted, you may choose to execute immediately."
 	},
+{
+        "id": "wizard",
+        "image": "https://wiki.bloodontheclocktower.com/images/b/b5/Icon_wizard.png",
+        "reminders": ["?"],
+        "name": "Wizard",
+        "team": "minion",
+    "firstNight": 19.1,
+    "firstNightReminder": "Run the Wizard ability if applicable.",
+    "otherNight": 9.1,
+    "otherNightReminder": "Run the Wizard ability if applicable.",
+        "ability": "Once per game, choose to make a wish.  If granted, it might have a price & leave a clue as to its nature."
+},
     {
             "id": "lordoftyphon",
             "image": "https://wiki.bloodontheclocktower.com/images/c/cf/Icon_lordoftyphon.png",
