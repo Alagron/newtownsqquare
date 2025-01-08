@@ -202,7 +202,7 @@
 		"setup": false,
 		"team": "minion",
 		"ability": "Each night, choose 2 players: tomorrow, the 1st player is mad that the 2nd is evil, or one or both might die." 
-    	},"https://wiki.bloodontheclocktower.com/images/6/61/Icon_organgrinder.png"
+    	},
     	{
     		"id":"organgrinder",
 		"name": "Organ Grinder",
