@@ -18,6 +18,7 @@ If you see the following role on this list, its not avaliable in townsquare:
 - Organ Grinder
 - Summoner
 - Vizier
+- Wizard
 - Lord of Typhon
 - Kazali
 - Ojo
